@@ -1,0 +1,97 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+/* Variables CSS */
+:root {
+    --white: #fff;
+    --blue: #0834d1;
+    --hover-blue: #0064f7;
+    --very-dark-blue: #0f0c29;
+    --gray: #ada9bb;
+    --hover-gray: #797585;
+    --font: 'Raleway', sans-serif;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+
+}
+
+/* Body */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+/* Container */
+.container {
+    width: 450px;
+    height: auto;
+    padding: 25px;
+    background: var(--white);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2em;
+    color: var(--very-dark-blue);
+    margin-bottom: 20px;
+}
+
+.container input {
+    border: none;
+    background: #c2c2c2;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.container .btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.container .btn-group button {
+    width: 100%;
+    padding: 10px 20px;
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.container .btn-group .btn-generate {
+    background: var(--blue);
+}
+
+.container .btn-group .btn-generate:hover {
+    background: var(--hover-blue);
+}
+
+.container .btn-group .btn-clear {
+    background: var(--gray);
+}
+
+.container .btn-group .btn-clear:hover {
+    background: var(--hover-gray);
+}
+
+.container .qrcode {
+    display: flex;
+    justify-content: center;
+}
