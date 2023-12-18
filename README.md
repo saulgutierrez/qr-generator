@@ -6,3 +6,6 @@ Technologies used:
 <li>Vanilla JS</li>
 <li>QRCode.js</li>
 <li>Google Fonts</li>
+
+![image](https://github.com/saulgutierrez/qr-generator/assets/62368834/9e93adcb-6d9e-42b3-adb8-3b8e3ee02bfc)
+
